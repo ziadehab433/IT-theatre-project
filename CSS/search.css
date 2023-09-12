@@ -1,0 +1,39 @@
+main{
+    margin-top: 50px;
+}
+
+.header
+{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 200px;
+}
+
+.search
+{
+    width: 300px;
+    height: 40px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #A0D9D0;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    color: rgb(31, 31, 31);
+    
+}
+
+.search:focus
+{
+    outline: none;
+    border: 2px solid #A0D9D0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px 270px;
+    column-gap: 10px;
+    row-gap: 30px;
+}

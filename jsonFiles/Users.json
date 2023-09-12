@@ -1,0 +1,134 @@
+{
+    "Users": [
+        {
+            "id": 1,
+            "name": "ziad ehab",
+            "passwordEncrypted": "$2y$10$W2fWP47fu5GsGDVYePO6E.ecEDwKWCpMT5cha2uo7qrNWQHV7uvt2",
+            "email": "ziadelsherif7@gmail.com",
+            "account": "vendor",
+            "PlaysAddedId": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "id": 2,
+            "name": "omar ahmed",
+            "passwordEncrypted": "$2y$10$sHQdglOf3FW.RdnhMwvOnuNoCNrDlfJHfXFcRHP8KcQPeBJmozhkG",
+            "email": "omarahmed@gmail.com",
+            "account": "customer",
+            "PlaysAddedId": []
+        },
+        {
+            "id": 3,
+            "name": "youssef sherif",
+            "passwordEncrypted": "$2y$10$iLJS57hiX6Bjd\/3f4X.FcOEn5XxmySNqEvnUS9Yu\/ZF82yB4Sbzzq",
+            "email": "youssef@gmail.com",
+            "account": "vendor",
+            "PlaysAddedId": []
+        },
+        {
+            "id": 4,
+            "name": "kimo",
+            "passwordEncrypted": "$2y$10$O1g\/u2Zk7qUvWEEDYflCbewqNv9THuyiclSO0MFSRldn5d9CLdEfW",
+            "email": "kkimopop@gmail.com",
+            "account": "customer",
+            "PlaysAddedId": []
+        },
+        {
+            "id": 5,
+            "name": "ahmed abdallah",
+            "passwordEncrypted": "$2y$10$fHb7bcbdR1oozLXNn3TYXuNajz6PV7fhRhHd8p3\/ZR94ysQNG1S3e",
+            "email": "ahmed@gmail.com",
+            "account": "vendor",
+            "PlaysAddedId": [
+                6,
+                7
+            ]
+        },
+        {
+            "id": 6,
+            "name": "menna",
+            "passwordEncrypted": "$2y$10$mQsUuRHUiFK\/e.Gv86Qd8uWuBcF7ZhbFfV662CjV1KZp4n2GYWKyu",
+            "email": "menna@gmail.com",
+            "account": "customer",
+            "PlaysAddedId": []
+        }
+    ],
+    "Plays": [
+        {
+            "id": 1,
+            "title": "frozen",
+            "description": "ldkfjsdlfasj;fsldkfjslfj",
+            "duration": "90",
+            "price": "230",
+            "bigPic": "..\/uploaded\/frozen sc.png",
+            "smallPic": "..\/uploaded\/frozen big sc.png",
+            "creator": "ziad ehab"
+        },
+        {
+            "id": 2,
+            "title": "the lion king",
+            "description": "dpfsldkfjdlfkja;dklfja;sdlkfj",
+            "duration": "100",
+            "price": "200",
+            "bigPic": "..\/uploaded\/lion king sc.png",
+            "smallPic": "..\/uploaded\/the lion king big sc.png",
+            "creator": "ziad ehab"
+        },
+        {
+            "id": 3,
+            "title": "matilda",
+            "description": "lskdfjsdlf;sdkj",
+            "duration": "80",
+            "price": "120",
+            "bigPic": "..\/uploaded\/matilda sc.png",
+            "smallPic": "..\/uploaded\/background 2 screenshotted.png",
+            "creator": "ziad ehab"
+        },
+        {
+            "id": 4,
+            "title": "phantom",
+            "description": "sdfssdfsdfsdfsdfsd",
+            "duration": "70",
+            "price": "300",
+            "bigPic": "..\/uploaded\/phantom.avif",
+            "smallPic": "..\/uploaded\/circle-highres.png",
+            "creator": "ziad ehab"
+        },
+        {
+            "id": 5,
+            "title": "lkzjflskdjf",
+            "description": "slkfjsd;lfkjsdflk",
+            "duration": "35",
+            "price": "50",
+            "bigPic": "..\/uploaded\/4444667.jpg",
+            "smallPic": "..\/uploaded\/1850.jpg",
+            "creator": "ziad ehab"
+        },
+        {
+            "id": 6,
+            "title": "the lion king",
+            "description": "dflsdfjkldfj\r\nsdjfjsdklfjdskl",
+            "duration": "38",
+            "price": "230",
+            "bigPic": "..\/uploaded\/lion king.avif",
+            "smallPic": "..\/uploaded\/lion king sc.png",
+            "creator": "ahmed abdallah"
+        },
+        {
+            "id": 7,
+            "title": "frozen",
+            "description": "slkdfjsklfj\r\nsjdklfj",
+            "duration": "234",
+            "price": "340",
+            "bigPic": "..\/uploaded\/frozen big sc.png",
+            "smallPic": "..\/uploaded\/frozen sc.png",
+            "creator": "ahmed abdallah"
+        }
+    ],
+    "Reservations": []
+}

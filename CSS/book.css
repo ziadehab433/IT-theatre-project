@@ -1,0 +1,206 @@
+main
+{
+    height: 400px;
+    background: white;
+    width :calc(91% - 100px);
+    height: 65vh;
+    margin-top: 230px;
+    border-radius: 20px;
+    position: relative;
+    padding: 150px 80px 10px 80px;
+    box-shadow: 1px 2px 3px #c8c8c8;
+}
+
+main > img
+{
+    height: 300px;
+    width: 940px;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: -180px;
+    left: calc((100% - 950px)/2);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    translate: 0 2px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.title span {
+    font-size: 13px;
+    color: #717171;
+    font-weight: 400;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right p {
+    font-size: 15px;
+    font-family: 'Iceberg', cursive;
+}
+
+.right * {
+    margin: 0 7px;
+}
+
+.right .one {
+    color: red;
+    position: relative;
+}
+
+.right .one::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    rotate: 10deg;
+    width: 100%;
+    height: 10%;
+    background: red;
+}
+
+.right .two {
+    color: green
+}
+
+.right button::before
+{
+    content: "";
+    background-color: #B5C3C3;
+    height: 50px;
+    width: 0.5px;
+    position :absolute;
+    left: -20px;
+    top: -2px;
+}
+
+.right button {
+    position: relative;
+    margin-left: 30px;
+    background-color: #43877B;
+    color: white;
+    height:45px;
+    width: 110px;
+    border: none;
+    border-radius: 13px;
+    font-size: 18px;
+    padding-top: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.right button:hover
+{
+    background-color: #437d73;
+}
+
+.st,
+.st2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.st
+{
+    margin-bottom: 15px;
+}
+
+.st * {
+    background-color: #E9E9E9;
+    font-size: 12px;
+    padding: 2px 5px;
+    color: #868686;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+
+.st2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+}
+
+.div1 svg,
+.div2 svg {
+    width: 10px;
+}
+
+.st2 p {
+    margin-left: 2px;
+}
+
+.st2 .div2 {
+    color:#DE1B56;
+}
+
+.icon
+{
+    height: 15px;
+}
+
+.st3 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.st3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+}
+.st3 .div1, .st3 .div2 {
+    margin-right: 40px;
+}
+.st3 p {
+    translate: 5px 0;
+}
+.desc {
+    margin-top: 20px;
+    font-size: 13px;
+    color: gray
+}
+.desc .p {
+    margin-top:5px;
+}
+
+.desc p:first-child
+{
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:400px) {
+    .cont {
+        min-height:95vh;
+    }
+    .info {
+        height:75%
+    }
+    .main {
+        margin-left:-30px;
+    }
+    .sidebar {
+        height:95%;
+        width:7vw;
+    }
+}

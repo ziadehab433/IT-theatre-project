@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Fredoka', sans-serif;
+    background-image: url("../pics/second\ colo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.sign
+{
+    color: #FFFFFF;
+    background: #393939;
+    border-radius: 30px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    width: 100%;
+}
+
+header > div:nth-child(2)
+{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+main > div
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img
+{
+    width: 500px;
+}
+
+main > div:nth-child(1)
+{
+    display: flex;
+    flex-direction: column;
+    padding-right: 350px;
+    padding-bottom: 80px;
+}
+
+.big
+{
+    font-size: 30px;
+}
+
+.small
+{
+    font-size: 20px;
+    color: rgb(70, 68, 68);
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px 0px 0px 120px;
+    transition: backgorund-color 0.25s;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: rgb(36, 36, 36);
+}
+
+.icon
+{
+    height: 40px;
+    width: 40px;
+}
+
+.website-name
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+@media (width < 1050px){
+    main > div:nth-child(2){
+        display: none;
+    }
+    
+    main > div:first-child{
+        width: 100%;
+    }
+    
+    header
+    {
+        padding-right: 100px;
+    }
+}

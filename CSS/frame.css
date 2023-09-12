@@ -1,0 +1,160 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #EBF1F0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/*  scrollbar cutomization */
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: #EBF1F0;
+    border-radius: 50px;
+    margin: 5px 0px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #1D1D1F;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+    background-color:#616163;
+}
+
+/* header css */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 40px 0px 15px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color:#EBF1F0;
+    z-index: 100;
+}
+
+/* sidebar */
+
+.sidebar
+{
+    background-color: white;
+    width: 45px;
+    height: 89%;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px #c8c8c8;
+    position: fixed;
+    top: 50px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.half
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.half img
+{
+    height: 25px;
+}
+
+.half > div,
+.half > a
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 50%;
+    transition: 0.15s;
+}
+
+
+.half > div:hover
+{
+    background-color: #EBF1F0;
+}
+
+.settings
+{
+    position: absolute;
+    background-color: white;
+    box-shadow: 1px 2px 3px #c8c8c8;
+    height: 40px;
+    width: 100px;
+    right: -120px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.settings > a
+{
+    color: #1D79D6;
+    font-weight: 500;
+}
+
+.settings > a:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tooltip
+{
+    background-color: rgb(99, 99, 99);
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    right: -70px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.half-div:hover .tooltip
+{
+    opacity: 1;
+}
+
+/* main */
+
+
+main
+{ /* don't delete the margin property */
+    margin-left: 150px;
+}
